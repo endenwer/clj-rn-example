@@ -8,7 +8,7 @@
  :aliases
  {:dev {:extra-deps
         {clj-rn {:git/url "https://github.com/endenwer/clj-rn"
-                 :sha "1112da8a72caad27c92fe3e63ea6659ee84fe1ae"}
+                 :sha "ebc7d778d6bf2238c5e07f147b992c723e1d8dec"}
 
          ;; CIDER compatible nREPL
          com.cemerick/piggieback {:mvn/version "0.2.2"

@@ -4,7 +4,8 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
+1. Install npm dependencies: `npm install` or `yarn`
+2. Start development: `clj -R:dev -m clj-rn.main watch -p ios -i simulator`
 
 ## License
 
