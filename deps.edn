@@ -1,0 +1,17 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure         {:mvn/version "1.9.0"}
+         org.clojure/clojurescript   {:mvn/version "1.10.238"}
+         re-frame                    {:mvn/version "0.10.4"}
+         reagent                     {:mvn/version "0.7.0"
+                                      :exclusions  [cljsjs/react cljsjs/react-dom cljsjs/react-dom-server cljsjs/create-react-class]}}
+
+ :aliases
+ {:dev {:extra-deps
+        {clj-rn {:git/url "https://github.com/endenwer/clj-rn"
+                 :sha "1112da8a72caad27c92fe3e63ea6659ee84fe1ae"}
+
+         ;; CIDER compatible nREPL
+         com.cemerick/piggieback {:mvn/version "0.2.2"
+                                  :exclusions  [com.google.javascript/closure-compiler]}
+         cider/cider-nrepl       {:mvn/version "0.16.0"}
+         refactor-nrepl          {:mvn/version "2.3.1"}}}}}
